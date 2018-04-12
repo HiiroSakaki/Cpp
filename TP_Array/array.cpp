@@ -434,5 +434,6 @@ int main(){
 	test_bin_search(array, len);
   	printf("\n");
 	
+	delete [] array;	
 	return 0;
 }
